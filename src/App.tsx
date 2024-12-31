@@ -28,11 +28,12 @@ function App() {
       const { offsetTop } = galleryRef.current;
       const scrollPosition = window.scrollY;
 
-      if (scrollPosition >= offsetTop) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
+      setIsVisible(false);
+      // if (scrollPosition >= offsetTop) {
+      //   setIsVisible(true);
+      // } else {
+      //   setIsVisible(false);
+      // }
     }
   };
 
